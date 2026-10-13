@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# RootTrace local files
+outputs/uploads/
+.env.*
+!.env.example
+
+# Local databases and temporary files
+*.db
+*.sqlite
+*.sqlite3
+
+outputs/

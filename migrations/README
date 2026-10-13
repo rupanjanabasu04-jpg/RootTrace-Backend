@@ -1,0 +1,7 @@
+Alembic migration files are created here with:
+
+    alembic revision --autogenerate -m "describe change"
+
+Run pending migrations with:
+
+    alembic upgrade head
